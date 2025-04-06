@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module that defines a Rectangle class with width, height, area, and perimeter."""
+"""Module that defines a Rectangle class with width, height, area,"""
 
 
 class Rectangle:
