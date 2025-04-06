@@ -4,7 +4,7 @@
 class Square:
     """Represents an empty square class.
 
-    This class does not have any attributes or methods.
-    placeholder for future square-related implementations.
+    This class does not have any attributes.
+    placeholder for future sq.
     """
     pass
