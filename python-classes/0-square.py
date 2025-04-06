@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# This module defines an empty class named Square.
+"""Defines an empty class Square"""
 
 class Square:
     """Represents an empty square class.
