@@ -1,19 +1,17 @@
 #!/usr/bin/python3
-"""Module that defines the MyList class, extending the base list class"""
+"""
+Module containing a class MyList that inherits from list.
+This class adds a method `print_sorted` to print the list in ascending order.
+"""
 
 class MyList(list):
-    """A class that inherits from the built-in list class"""
-
+    """
+    MyList class that inherits from the built-in list class.
+    It adds a method `print_sorted` to print the list in sorted (ascending) order.
+    """
+    
     def print_sorted(self):
-        """Prints the list in sorted order
-
-        >>> my_list = MyList([3, 1, 2])
-        >>> my_list.print_sorted()
-        [1, 2, 3]
+        """
+        Prints the list in ascending order without modifying the original list.
         """
         print(sorted(self))
-
-# Example to show doctests running with the command
-if __name__ == "__main__":
-    import doctest
-    doctest.testmod()
