@@ -32,7 +32,7 @@ class CustomObject:
     @classmethod
     def deserialize(cls, filename):
         """
-        Deserialize an object from the file and return the instance.
+        Deserialize an object from th
         
         Args:
             filename (str): The name of the file to
