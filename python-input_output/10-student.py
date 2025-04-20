@@ -28,8 +28,7 @@ class Student:
         Returns the dictionary representation of the instance,
 
         Args:
-            attrs (list, optional): A list of attribute 
-            
+            attrs (list, optional): A list of attribute
         Returns:
             dict: A dictionary with the instance attributes,
         """
