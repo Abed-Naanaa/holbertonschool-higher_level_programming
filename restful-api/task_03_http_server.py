@@ -25,8 +25,9 @@ class MyHandler(http.server.BaseHTTPRequestHandler):
             self.wfile.write("Hello, this is a simple API!".encode())
         
         elif self.path == '/status':
-            self.send_response(200, "OK")
+            self.send_response(200)
             self.end_headers()
+            self.wfile.write("OK".encode())
 
         elif self.path == '/info':
             self.send_response(200)
