@@ -9,7 +9,7 @@ import csv
 def fetch_and_print_posts():
     url = "https://jsonplaceholder.typicode.com/posts"
     resp = requests.get(url)
-    iprint("Status Code: {}".format(resp.status_code))
+    print("Status Code: {}".format(resp.status_code))
     if resp.status_code != 200:
         print("Error")
         return
