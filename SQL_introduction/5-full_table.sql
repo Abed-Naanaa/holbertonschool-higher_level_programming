@@ -1,3 +1,2 @@
--- describing the table
-
-EXPLAIN first_table;
+-- Prints the CREATE TABLE statement of first_table
+SHOW CREATE TABLE first_table;
