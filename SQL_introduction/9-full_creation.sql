@@ -1,6 +1,6 @@
 -- creating new table and filling data
 
-CREATE TABLE second_table(
+CREATE TABLE if NOT EXISTS second_table(
 	id INT,
 	name VARCHAR (256),
 	score INT
